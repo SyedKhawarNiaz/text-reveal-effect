@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: auto !important;
+}
+.page1 {
+  width: 100%;
+  height: 100vh;
+  background-color: brown;
+}
+.page2 {
+  width: 100%;
+  height: 100vh;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.text {
+  /* border: 2px solid red; */
+  font-size: 5vw;
+  letter-spacing: 5px;
+  font-weight: 500;
+  /* opacity: 0.3; */
+  color: rgb(191 191 191);
+  position: relative;
+}
+.text2 {
+  position: absolute;
+  top: 0px;
+  /* left: 20.9rem; */
+  width: 100%;
+  opacity: 1;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.page3 {
+  width: 100%;
+  height: 100vh;
+  background-color: brown;
+}
